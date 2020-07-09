@@ -3,8 +3,8 @@ const mysql = require('mysql');
 //db connection
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'developer',
-    password: 'developer',
+    user: 'root',
+    password: '',
     database: 'db_barang'
 });
 
